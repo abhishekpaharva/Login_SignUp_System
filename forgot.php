@@ -20,7 +20,7 @@
 
 					$to = $email;
 					$sub = 'RESET PASSWORD';
-					$msg = 'http://www.teamx.dx.am/reset.php?email='.$email.'&dob='.$dob;
+					$msg = 'http://your-website-name/reset.php?email='.$email.'&dob='.$dob;
 					mail($to,$sub,$msg);
 					echo "<h1>Reset email has been send(please check your email indox and spam box )</h1>";
 				}
